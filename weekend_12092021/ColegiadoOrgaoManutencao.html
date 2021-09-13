@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Órgãos Colegiados</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+    <header class="headerColegiado margin30">
+        <p>Colegiado UNESP :::</p>
+        <p>Manutenção do Órgão Colegiado</p>
+    </header>
+
+    <table class="tableColegiado60 margin30">
+        <tr>
+            <td>Unidade</td>
+            <td>FACULDADE DE ENGENHARIA DE ILHA SOLTEIRA</td>
+        </tr>
+        <tr>
+            <td>Tipo Colegiado</td>
+            <td>CONGREGAÇÃO</td>
+        </tr>
+    </table>
+
+    <form name="formulario">
+        <input type="hidden" name="cod_pagina" />
+
+        <table class="tableColegiado80">
+            <thead>
+                <tr>
+                    <td colspan=4 height="40">Órgão Colegiado </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <table>
+                            <tr>
+                                <td class="tdInterno" width="20%"><b>Nome</b></td>
+                                <td class="tdInputInterno" colspan=3><input type="text" name="nome"
+                                        value="CONGREGAÇÃO DA FACULDADE DE ILHA SOLTEIRA" size="78" maxlength="78" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tdInterno"><b>Sigla</b></td>
+                                <td class="tdInputInterno" width="40%"><input type="text" name="sigla" value="CFIS"
+                                        size="10" maxlength="10" />
+                                </td>
+                                <td class="tdInterno"><b>Status</b></td>
+                                <td class="tdInputInterno"><select name="status" size="1">
+                                        <option value="A" selected>ATIVADO</option>
+                                        <option value="A">ATIVADO</option>
+                                        <option value="D">DESATIVADO</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td class="tdInterno"><b>Data Ativação</b></td>
+                                <td class="tdInputInterno"><input type="text" name="dt_ativo" value="10/09/2021"
+                                        size="10" maxlength="10" />
+                                </td>
+                                <td class="tdInterno"><b>Data Desativação</b></td>
+                                <td class="tdInputInterno"><input type="text" name="dt_desativo" value="" size="10"
+                                        maxlength="10" /></td>
+                            </tr>
+                            <tr>
+                                <td class="tdInterno"><b>Órgão de Origem</b></td>
+                                <td class="tdInputInterno" colspan=3><input type="text" name="origem" value=""
+                                        size="68" />
+                                    <input name="buttonOrigem" type="button" value="Buscar" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tdInterno" d><b>Órgão Superior</b></td>
+                                <td class="tdInputInterno" colspan=3><input type="text" name="superior" value=""
+                                        size="68" />
+                                    <input name="buttonSuperior" type="button" value="Buscar" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tdInterno"><b>Documentação</b></td>
+                                <td class="tdInputInterno" colspan=3><textarea name="documentacao" cols="93"
+                                        rows="4"> &Oacute;rg&atilde;o criado com o objetivo de aprovar normas da unidade.</textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan=5 class="tdInputInterno">
+                                    <div class="divColegiado">
+                                        <div class="padEsquerda40 pad40">
+                                            <input name="button" type="button" value="Salvar">
+                                        </div>
+                                        <div class="padEsquerda40 pad40">
+                                            <input name="button" type="button" value="Excluir">
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+
+        </table>
+    </form>
+
+    <input class="input" margin=10 name="button" type="button" value="Retornar" />
+</body>
+
+</html>

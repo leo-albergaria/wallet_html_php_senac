@@ -1,0 +1,176 @@
+.s1 {
+    height: 1px;
+    background-color: silver;
+}
+
+.s2 {
+    height: 2px;
+    background-color: silver;
+}
+
+.s3 {
+    height: 3px;
+    background-color: silver;
+}
+
+.ss3 {
+    height: 3px;
+}
+
+.s5 {
+    height: 5px;
+    background-color: silver;
+}
+
+.center {
+    margin: 0;
+    text-align: center;
+}
+
+hr {
+    width: 100%;
+    color: silver;
+    text-align: left;
+}
+
+.blue {
+    color: blue;
+}
+
+.green {
+    color: green;
+}
+
+.orange {
+    color: orange;
+}
+
+.red {
+    color: red;
+}
+
+.magenta {
+    color: magenta;
+}
+
+.brown {
+    color: brown;
+}
+
+.b_gray {
+    background-color: #A8A8A8;
+}
+
+.font {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.img_ex01 {
+    width: 40px;
+    height: 40px;
+    padding-right: 10px;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.table_Ex03 {
+    border: 1px solid black;
+    width: 60%;
+    margin: auto;
+}
+
+th,
+tr,
+td {
+    border: 1px solid black;
+}
+
+.headerColegiado {
+    width: 100%;
+    height: 75px;
+    background-color: bisque;
+    text-align: center;
+    vertical-align: middle;
+    display: table;
+    font-style: oblique;
+    font-size: large;
+}
+
+.tableColegiado60 {
+    border: 1px solid black;
+    width: 60%;
+    margin: auto;
+}
+
+.tableColegiado80 {
+    border: 1px solid black;
+    width: 80%;
+    margin: auto;
+}
+
+.margin30 {
+    margin-bottom: 30px;
+}
+
+.tdInterno {
+    border: 0;
+    text-align: right;
+}
+
+.tdInputInterno {
+    border: 0;
+}
+
+.divColegiado {
+    margin: auto;
+    width: 50%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.padTop {
+    padding-top: 40px ;
+}
+
+.padDireta40 {
+    padding-right: 40px;
+}
+
+.padEsquerda40 {
+    padding-left: 40px;
+}
+
+.input {
+    width: 180px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+.tam26 {
+    font-size: 26px;
+}
+
+.a_ex05 {
+    display: block;
+    padding: 5px;
+}
+
+.direta {
+    text-align: right;
+}
+
+.esquerda {
+    text-align: left;
+}
+
+.ul_ex05 {
+    list-style-position: inside;
+    padding-left: 0;
+}

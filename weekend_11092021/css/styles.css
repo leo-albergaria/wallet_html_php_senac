@@ -1,0 +1,59 @@
+@font-face {
+    src: url(../Fonts/Glory-Italic.ttf);
+    font-family: Glory-Italic;
+    font-weight: normal;
+}
+
+body {
+    max-width: 100%;
+    margin: 40px;
+    padding: 10px;
+    background-color: cornsilk;
+    font-family: Glory-Italic, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.imagemBack {
+    background-image: url(../images/abstract-258339_960_720.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+article header h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+article p {
+    text-align: justify;
+}
+
+.center {
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: lavender;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divRegras {
+    display: flex;
+    pointer-events: all;
+    justify-content: center;
+}
+
+.divTamanho {
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

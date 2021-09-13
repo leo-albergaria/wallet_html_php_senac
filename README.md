@@ -1,7 +1,7 @@
-<p><img src="imagem" align="left" height="150px" width="150px">
-    <h1># Título</h1> 
+<p><img src="https://user-images.githubusercontent.com/63436406/133014656-bf50e243-f545-429e-a68f-d3a72e153815.png" align="left" height="150px" width="150px">
+    <h1># Exercício de fim de semana - 11 e 12 de setembro.</h1> 
     <p align="justify">
-    Você digitar texto aqui.
+    Material de desenvolvimdo para os exercícios aplicados na aula de Programação em PHP Web. O material disposibilizado é os primeiros em desenvolvimento tendo aplicação HTML e CSS.
     </p>
 </p>      
 
@@ -13,6 +13,3 @@
     <code><a href="https://www.linkedin.com/in/adm-leo-albergaria/">
         <img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a></code>
 <br>     
-
-<a href="https://www.digitalinnovation.one/">
-    <img src="https://user-images.githubusercontent.com/63436406/127776292-9ec4809a-1137-4dc8-b493-7de0186fd55c.png" align="right" height="80px" width="250px" ></a>
